@@ -5,7 +5,7 @@ body,ul,li{
 	list-style-type:none;
 }
 
-.nav{
+nav{
 	background-color:#6e072d;
 	color:white;
 	display:flex;
@@ -14,24 +14,24 @@ body,ul,li{
 	width:100%;
 }
 
-.nav ul{
+nav ul{
 	display:flex;
 	align-items:center;
 }
 
-.nav  li {
+nav  li {
 	padding:0 27px;
 		font-size:18px;
 	border-right: 2px solid white;
 	cursor:pointer;
 }
 
-.nav .first-list li:last-child
+nav .first-list li:last-child
  {
     border-right: none;
 }
 
-.nav li:hover {
+nav li:hover {
     background-color: #b90e4d;
     cursor: pointer;
 }
