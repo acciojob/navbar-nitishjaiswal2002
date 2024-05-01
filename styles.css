@@ -14,24 +14,24 @@ body,ul,li{
 	width:100%;
 }
 
-.navbar ul{
+.nav ul{
 	display:flex;
 	align-items:center;
 }
 
-.navbar li {
+.nav  li {
 	padding:0 27px;
 		font-size:18px;
 	border-right: 2px solid white;
 	cursor:pointer;
 }
 
-.navbar .first-list li:last-child
+.nav .first-list li:last-child
  {
     border-right: none;
 }
 
-.navbar li:hover {
+.nav li:hover {
     background-color: #b90e4d;
     cursor: pointer;
 }
